@@ -1,0 +1,42 @@
+body { margin: 0; }
+.layer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.layer-bg {
+  background: url(../img/firstview.jpg) no-repeat top;
+  background-size: cover;
+  height: 400px;
+}
+.layer-txt{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+.child {
+  margin: 20px;
+}
+p[class]{
+  text-align: left;
+  font-weight: bold;
+}
+.name {
+  text-align: center;
+}
